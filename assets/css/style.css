@@ -1,0 +1,38 @@
+:root{
+    --base:#ffc600;
+    --spacing:1px;
+    --blur:1px;
+}
+
+.highlighter{
+    color:var(--base);
+}
+
+
+
+.img-container img{
+    width: 50%;
+    height: 50%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter:blur(var(--blur));
+}
+
+
+body{
+    text-align: center;
+    background-color: #193456;
+    font-family: 'fira code';
+    font-weight: 100;
+    font-size: 50px;
+    color: white;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
+
+input{
+    margin-bottom: 100px;
+}
+
